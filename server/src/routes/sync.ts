@@ -19,3 +19,5 @@ router.post('/manifest', async (req, res) => {
     res.status(500).send({ error: 'server error' });
   }
 });
+
+export default router;
